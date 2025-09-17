@@ -6,6 +6,9 @@ def hitung():
     nilaiAkhir = ((uts * 30 / 100) + (uas * 30 / 100) + (kuis * 40 / 100))
 
     print("=============================")
+
+    print(f"Nilai Akhir adalah {nilaiAkhir}")
+
     if 0 <= nilaiAkhir <= 50:
         print("Nilai Akhir adalah D")
     elif 50 < nilaiAkhir <= 70:
